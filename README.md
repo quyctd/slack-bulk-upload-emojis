@@ -12,7 +12,7 @@ cd slack-bulk-upload-emojis
 bundle install
 ```
 ## Usage
-Just run this file
+Just run command
 ```bash
 ruby slack_bulk_uploader.rb
 ```
