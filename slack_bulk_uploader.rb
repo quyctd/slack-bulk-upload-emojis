@@ -94,6 +94,6 @@ class Uploader
 end
 
 dir = ask("Pls enter the path to emojis folder, 'q' for current folder: ")
-dir = Dir.pwd if dir.downcase.strip == 'q'
+dir = Dir.pwd if dir.downcase.strip == 'q' || dir.downcase.strip == ''
 
 Uploader.new(dir).upload_emojis
