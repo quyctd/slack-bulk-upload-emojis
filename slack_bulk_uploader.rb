@@ -59,7 +59,14 @@ class Uploader
 
   def push_emojis
     emojis = list_emojis
-    Dir.glob("#{@dir}/*.{jpg,png,gif,jpeg}").each do |path|
+    images = Dir.glob("#{@dir}/*.{jpg,png,gif,jpeg}")
+
+    if images.empty?
+      puts 'This folder does not contain any images'
+      return
+    end
+
+    images.each do |path|
       basename = File.basename(path, '.*')
 
       # skip if already exists
