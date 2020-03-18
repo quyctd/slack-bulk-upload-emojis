@@ -67,7 +67,7 @@ class Uploader
     end
 
     images.each do |path|
-      basename = File.basename(path, '.*')
+      basename = File.basename(path, '.*').downcase
 
       # skip if already exists
       if emojis.include?(basename)
