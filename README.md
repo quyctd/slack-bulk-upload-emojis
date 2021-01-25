@@ -1,5 +1,11 @@
 # Slack - BULK Upload Emojis
+
+I think a webpage will be helpful 🤔  I may do it in the future.
+
 ---
+
+## Requirements
+Ruby and some knowledge about Ruby to install gem too, lol
 
 ## Install
 1. Clone repo
