@@ -1,6 +1,6 @@
 # Slack - BULK Upload Emojis
 
-I think a webpage will be helpful 🤔  I may do it in the future.
+I think a webpage will be helpful 🤔 . I may do it in the future.
 
 ---
 
